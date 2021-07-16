@@ -78,3 +78,23 @@ class Persona{
 		cout<<"Guardado con Exito";
 		ar.close();
  }
+
+//Carlos Mero  Recuperar los datos desde el archivo txt.
+	void rym()
+ {
+ 	ifstream ar;
+ 	string texto;
+ 	ar.open("registro.txt",ios::in);
+ 	if(ar.fail()){
+ 		cout<<"No se abre";
+ 		exit(1);
+ 		
+	 }
+	 while(!ar.eof()){
+	 	getline(ar,texto);
+	 	cout<<texto<<endl;
+	 	
+	 }
+	 ar.close();
+  }	
+};

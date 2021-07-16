@@ -57,7 +57,34 @@ class Persona{
 		
 		}
 
-	
+//Pierina Mejia Hurtado Calcular edad
+        void caledad(int aa,int ma,int da) 
+  
+  {
+  	if(da>dn)
+{
+	d=da-dn;
+}else{
+	da=da+30;
+	ma=ma-1;
+	d=da-dn;
+}
+if(ma>mn)
+{
+	m=ma-mn;
+}else{
+	ma=ma+12;
+	aa=aa-1;
+	m=ma-mn;
+}
+
+a=aa-an;
+   } 
+	 void mostraed()
+   {
+   	cout<<"Su edad es : "<<a<<" Años "<<m<<" MESES "<<d<<" DIAS "<<endl;
+   	
+   }
 	
 //Cajiao Casierra Fernando Guardado de archivo txt.
 	void guardar(){

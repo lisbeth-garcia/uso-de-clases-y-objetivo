@@ -1,15 +1,5 @@
 //Garcia lopez lisbeth  Ingresar y mostrar los datos por pantalla
 
-#include <stdlib.h>
-#include<iostream>
-#include<string>
-using namespace std;
-#include "classpersona.h"
-
-
-int main()
-
-{
 	
 class Persona{
 	
@@ -21,6 +11,7 @@ class Persona{
 		
 		
 	public:
+	
   Persona(){
 		}
   void ingresar()
@@ -32,15 +23,19 @@ class Persona{
 			
 			cout<<"Escriba sus nombres:  ";getline(cin,nombres);//
 			cout<<"Escriba sus apellidos:  ";getline(cin,apellidos);
-			cout<<"Digite su peso: ";cin>>peso;
-			cout<<"Digite su estatura: ";cin>>estatura;
+			cout<<"Digite su peso: ";
+	                cin>>peso;
+			cout<<"Digite su estatura: ";
+	                cin>>estatura;
 			cout<<"Ingres la fecha de nacimiento (a-m-d): "; 
-               cin>>an>>mn>>dn;
+                        cin>>an>>mn>>dn;
             
 		}
 
 	void mostrar()
+		
 		{
+		
 	    cout<<"-----------------------------------------------------"<<endl;	
 		cout<<"|CEDULA"<<"\t";
 		cout<<"  |NOMBRES"<<"\t"; 
@@ -50,7 +45,8 @@ class Persona{
 		cout<<"  |AA:"<<"\t";
 		cout<<"  |MM:"<<"\t";
 		cout<<"  |DD:"<<endl;
-cout<<"|"<<cedula<<"\t";
+               
+		cout<<"|"<<cedula<<"\t";
 		cout<<"  |"<<nombres<<"\t";
 		cout<<"  |"<<apellidos<<"\t";
 		cout<<"|"<<peso<<"\t";

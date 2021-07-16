@@ -85,6 +85,20 @@ a=aa-an;
    	cout<<"Su edad es : "<<a<<" Años "<<m<<" MESES "<<d<<" DIAS "<<endl;
    	
    }
+ //Espinal Marin Diana Calculo de indice masa corporal.
+
+	void calimc(float i)
+ {
+ 	i=peso/(estatura*estatura);
+ 		cout<<"Su IMC es:"<<i<<endl;
+ 	if (imc<24){
+ 		cout<<"Felicidades"<<endl;
+ 		
+	 
+	}else{
+			cout<<"Estas gorda"<<endl;
+	}
+ }
 	
 //Cajiao Casierra Fernando Guardado de archivo txt.
 	void guardar(){

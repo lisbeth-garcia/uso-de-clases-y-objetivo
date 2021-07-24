@@ -34,11 +34,30 @@ Se encarga de ingresar el menú para llamar a los colaboradores que implementaro
 Ingresábamos nuestra programación utilizando las variables, sentencias o bucles y estructuras de control para así ejecutarla en el programador de C++. 
 
 # FUNCIONES IMPLEMENTADAS 😁
+- Para comenzar necesecitamos abrir nuestro repositorio de "github", ubicado en la carpeta llamada "inicio.cpp" y copiamos todo el codigo antes editado.
+![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-22%2020-56-25-096.jpg)
 
-- void
-- int main
-- return
-- float 
+![](https://user-images.githubusercontent.com/86032081/126852099-ed4de22d-cf26-42d8-9a26-de2ebecf15f2.png)
+
+
+- Una vez que hayamos copiado nuestro codigo tenemos que dirigirnos a nuestro programa "dev-c++" y generamos un nuevo archivo usando la convinacion de "ctrl+n" y con eso pegaremos nuestro codigo de "github".
+![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-22%2021-14-52-891.jpg)
+
+![](https://user-images.githubusercontent.com/86032081/126849565-840fec19-7775-4ec3-bfa6-0d87775aa6c0.JPG)
+
+- Necesitamos guardar nuestro proceso e irnos al icono de gruardar y se nos abrira una nueva ventana donde colocaremos el nombre del archivo como "inicio.cpp" y damos clic en guardar.
+![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-22%2021-39-53-866.jpg)
+
+- Regresamos nuevamente a nuestros archivos en "github" y seleccionamos la carpeta de "colaboradores.h" y copiamos todo el codigo que se encuentra almacenado.
+![](https://raw.githubusercontent.com/luisolis20/images/main/bandicam%202021-07-22%2020-56-31-173.jpg)
+![](https://user-images.githubusercontent.com/86032081/126851128-26e3e298-ffbd-44bb-8a97-f8c9bd72a162.png)
+
+- Abrimos otra vez nuestro programa "dev-c++" y utilizamos el comando "ctrl+n" y se nos abrira una nueva pestaña, una vez ahi pegamos el codigo que copiamos anteriormente y salvamos nuevamente nuestro programa, seleccionando el icono de "guardar" donde se nos abrira la pestaña para poner el nimbre de nuestro archivo y lo titularemos como: "colaboradores.h"
+![](https://raw.githubusercontent.com/luisolis20/images/main/bandicam%202021-07-22%2022-03-45-524.jpg)
+![](https://raw.githubusercontent.com/luisolis20/images/main/bandicam%202021-07-22%2022-04-28-356.jpg)
+![](https://user-images.githubusercontent.com/86032081/126851443-f14bf90a-9caa-4329-a80f-8eca5e93d81b.JPG))
+
+![](https://raw.githubusercontent.com/luisolis20/images/main/bandicam%202021-07-22%2021-39-53-866.jpg)
 
 # EJECUCION DEL PROGRAMA 
 El usuario debe darle al botón de compilar y ejecutar para verificar si no hay ningún error.

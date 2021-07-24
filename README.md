@@ -26,13 +26,55 @@ Control completo referente al uso de metodos necesarios para realizar un guardad
 # 😎Mero Alban Carlos Andres🤎
 Utilizo bien su conocimiento previo sobre la programación y llevando a realizar una buena argumentación al momento de realizar las solicitudes de extracción de demodificaciones en el codigo.
 
-# COMPOSICIÓN 🤲
+# COMPOSICIÓN✍
 
-- principal.cpp
-Se encarga de ingresar el menú para llamar a los colaboradores que implementaron variables al momento de realizar su código y así el repositorio principal llamará al secundario.
-- classpersona.h
-Ingresábamos nuestra programación utilizando las variables, sentencias o bucles y estructuras de control para así ejecutarla en el programador de C++. 
+#Descripcion Del Proyecto
+El proyecto cuenta con dos archivos anteriormente dichos (inicio.cpp y 
+colaboradores.h)
+![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2019-34-49-275.jpg)
 
+###El primer archivo (inicio.cpp) cuenta con librerias de varios tipos:
+>Una de entrada y salida (iostream), esa es una nuestra libreria estandar. Una que manipula archivos desde el programa (fstream). Una que generaliza cadenas alfanumericas para albergar cadenas de objetos (string). Una que asigna un bloque de tamaño de bytes de memoria (malloc). Una que contiene los prototipos de las funciones, macros, y tipos para utilidades de uso general (stdlib).
+
+Cada una de estas librerias va acompañada por un (#include), ademas se le añade el "using namespace std" para no escribir std en cada linea de cod; tambien se añadio
+un "#include" para hacer el llamdado al otro archivo (colaboardores.h)
+
+En en cod lo podemos apreciar de la siguiente manera:
+![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2019-24-18-464.jpg) 
+
+###Dentro de este archivo (inicio.cpp) tenemos una funcion principal "int main":
+Dentro de esta funcion primero  declaramos  variables de tipo entero (int) y de tipo flotante (float) que nos trasladan los datos del otro archivo, ademas se hace el llamado a la clase que se encuentra en el otro archivo (colaboradores.h).
+ 
+>Cuando se hace el llamado a una clase se coloca  primero el nombre de la  clase y luego se coloca un apodo u otro nombre, ejem: "Persona motato;"
+
+![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2019-39-47-835.jpg)
+
+Dentro de esta funcion principal luego creamos un menu de inicio que le permitira al usuario escoger una opcion. Cada opcion tiene un proceso:
+
+|*Opcion| **Proceso que realiza*                  |
+| ------------- | ------------------------------ |
+| 1 | Hace el llamado a la función y a la clase (motato.ingresar)(motato.mostrar), esta opción permite al usuario llenar sus datos personales y luego los muestra     |
+| 2   |Hace el llamado a la clase y a la funcion (motato.caledad)(motato.mostraed), esta opción permite al usuario ingresar la fecha actual y luego hacer el cálculo de la edad y mostrarla
+| 3 | Hace el llamado a la clase y a la funcion (motato.calimc), esta opción le permite al usuario calcular su índice de masa corporal con su peso y su altura, en caso de que su IMC sea normal se mostrará un mensaje "felicitaciones"
+| 4 | Hace el llamado a la clase y a la función (motato.guardar), esta opcion le permite al usuario crear un archivo txt y guardar los datos ingresados.
+| 5 |Hace el llamado a la clase y a la función (motato.rym),esta opción permite al usuario recuperar los datos guardados en el archivo txt y mostrarlo por pantalla
+
+![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2020-48-53-179.jpg)
+
+###En el segundo archivo (colaboradores.h) se encuentran la clase (class persona) y las funciones.
+>En la clase persona se declaran los datos privados, estos datos privados son los que no se pueden ser alterados
+![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2021-07-52-244.jpg)
+
+###Tambien se declaran datos publicos:
+>Dentro de estos datos publicos se hacen las funciones y los procesos para cada una de las opciones del menu.
+Ahi se encuentran diversos tipos de funciones cada una de ellas hace un proceso distinto:
+
+*La primera funcion (void ingresar)*: En ella se va ingresar los datos personales y se usa el gentline para ingresar los nombres y apellidos con espacios.
+![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2021-30-48-922.jpg)
+
+*La segunda función(void mostrar):*En ella se va a mostrar los datos ingresados anteriormente en la primera funcion y utilizamos un \t para poder mostrar los datos en forma de una tabla.
+
+![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-21%2021-27-13-551.jpg)
 # FUNCIONES IMPLEMENTADAS 😁
 - Para comenzar necesecitamos abrir nuestro repositorio de "github", ubicado en la carpeta llamada "inicio.cpp" y copiamos todo el codigo antes editado.
 ![](https://raw.githubusercontent.com/luisolis20/prueba/main/bandicam%202021-07-22%2020-56-25-096.jpg)

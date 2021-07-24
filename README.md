@@ -21,7 +21,22 @@ Implemento las variables adecuadas al momento de realizar la parte que le tocaba
 Gran uso de los conocimientos antes adquiridos para la realización de su respectivo trabajo, aplicando una investigación muy clara acerca de los índices corporales de una persona para dar un mensaje de alerta si este resultado sobrepasa el índice normal.
 
 # 🌟Cajiao Casierra Fernando Alexander🌚
-control completo referente al uso de metodos necesarios para realizar un guardado de datos dentro de un archivo txt sin presentar ningún problema dentro del codigo que se realizo.
+Control completo referente al uso de metodos necesarios para realizar un guardado de datos dentro de un archivo txt sin presentar ningún problema dentro del codigo que se realizo.
 
 # 😎Mero Alban Carlos Andres🤎
 Utilizo bien su conocimiento previo sobre la programación y llevando a realizar una buena argumentación al momento de realizar las solicitudes de extracción de demodificaciones en el codigo.
+
+# COMPOSICIÓN:
+
+- principal.cpp
+Se encarga de ingresar el menú para llamar a los colaboradores que implementaron variables al momento de realizar su código y así el repositorio principal llamará al secundario.
+- classpersona.h
+Ingresábamos nuestra programación utilizando las variables, sentencias o bucles y estructuras de control para así ejecutarla en el programador de C++. 
+
+# FUNCIONES IMPLEMENTADAS 
+
+-void
+-int main
+-return
+-float 
+

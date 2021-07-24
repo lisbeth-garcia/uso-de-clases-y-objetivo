@@ -26,17 +26,17 @@ Control completo referente al uso de metodos necesarios para realizar un guardad
 # 😎Mero Alban Carlos Andres🤎
 Utilizo bien su conocimiento previo sobre la programación y llevando a realizar una buena argumentación al momento de realizar las solicitudes de extracción de demodificaciones en el codigo.
 
-# COMPOSICIÓN:
+# COMPOSICIÓN 🤲
 
 - principal.cpp
 Se encarga de ingresar el menú para llamar a los colaboradores que implementaron variables al momento de realizar su código y así el repositorio principal llamará al secundario.
 - classpersona.h
 Ingresábamos nuestra programación utilizando las variables, sentencias o bucles y estructuras de control para así ejecutarla en el programador de C++. 
 
-# FUNCIONES IMPLEMENTADAS 
+# FUNCIONES IMPLEMENTADAS 😁
 
--void
--int main
--return
--float 
+- void
+- int main
+- return
+- float 
 
